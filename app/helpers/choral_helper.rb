@@ -1,0 +1,2 @@
+module ChoralHelper
+end

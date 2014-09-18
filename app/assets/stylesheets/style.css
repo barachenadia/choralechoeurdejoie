@@ -1,0 +1,132 @@
+
+/***************** FontFace  **********************/
+@font-face {font-family:"Miso Light";
+src:url("miso-light.eot?") format("eot"),
+url("miso-light.woff") format("woff"),
+url("miso-light.ttf") format("truetype"),
+url("miso-light.svg#Miso-Light") format("svg");font-weight:bold;font-style:normal;}
+
+
+
+/**************Background image ******************/
+body { 
+
+  margin:0;
+  padding:0;
+  background: url(plan.jpeg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover; /* version standardisée */
+  background-attachment : fixed;
+}
+
+
+
+/******************** Navigation Bar css *******************/
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+
+li {
+ margin-left:2px;
+ float:right; /*pour IE*/
+ }
+
+ul li a {
+ display:block;
+ float:right;   
+ width:133px;
+ background-color:#891818;
+ color:white;
+ text-decoration:none;
+ text-align:center;
+ padding:1px; 
+ font-family:'Miso Light';
+ font-size: 15px;
+ }
+h2{
+	 font-family:'Miso Light';
+}
+ul li a:hover {
+ background-color:white;
+ color:black;
+ } 
+
+#boxright{
+	color:white;
+	background-color: #891818;
+	padding:20px;
+	text-align: center;
+	font-family:"Miso Light";
+	margin-bottom:20px;
+	height: 720px
+
+}
+#espace
+{
+margin-bottom:10px;
+border-bottom: 1px solid white;
+margin-right: 10%;
+margin-left: 10%
+
+}
+
+#titlebottom{
+	margin-top:10px;
+	margin-bottom:20px;
+	font-size: 25px;
+}
+#introbottom{
+	
+	padding:30px;
+	font-size: 18px;
+}
+#sizefont
+{
+margin-bottom: 10px;
+font-size: 25px
+}
+#contacteznousfont
+{
+margin-top: 13%;
+font-size: 25px
+}
+#line
+{
+border-bottom: 1px solid white;
+margin-right: 25%;
+margin-left: 25%;
+margin-top: 15px;
+margin-bottom:20px;
+}
+
+#contacteznous
+{
+font-size: 18px;
+margin-top: 4%;
+padding-right:30px;
+padding-left: 30px;
+margin-bottom: 12%
+}
+
+#leftbox
+{
+color:white;
+}
+
+#top{
+	margin-top: 4%;
+	
+}
+#contentbloc{
+	padding:2%;
+	margin-top: 2%;
+    margin-left: 26%;
+    height:629px;
+    width:74%;
+    background-color: rgba(255,255,255,0.7);
+
+}
