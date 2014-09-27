@@ -289,4 +289,21 @@ textarea:focus ~ .bar:before, textarea:focus ~ .bar:after {
 
 #button{
 	cursor: pointer;
+	font-weight:900px!important;
+	color:#891818;
+}
+#gallery{
+
+    position: absolute;
+    /* right: 0; */
+    /* top: 0; */
+    /* left: 0; */
+    bottom: 0;
+
+}
+
+#paddinglinealbum{
+
+    margin-top: 2px;
+
 }
