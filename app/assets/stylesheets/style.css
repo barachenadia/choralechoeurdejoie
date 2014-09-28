@@ -157,6 +157,8 @@ float:left;margin-top:13%
 #lineblocconcert{
 	border-bottom: 1px solid black;
 	margin-right: 25%;
+  margin-bottom: 24%;
+
 
 }
 
@@ -179,7 +181,7 @@ float:left;margin-top:13%
 }
 input         {
   font-size:25px !important;
-  padding:10px 10px 10px 5px !important ;
+  padding:4px 18px 10px 5px !important ;
   display:block !important;
   width:500px !important;
   background-color:transparent !important;
@@ -292,18 +294,11 @@ textarea:focus ~ .bar:before, textarea:focus ~ .bar:after {
 	font-weight:900px!important;
 	color:#891818;
 }
-#gallery{
-
-    position: absolute;
-    /* right: 0; */
-    /* top: 0; */
-    /* left: 0; */
-    bottom: 0;
-
-}
 
 #paddinglinealbum{
-
-    margin-top: 2px;
-
+  color:#891818;
+  font-size: 18px;
+  font-weight: bold
 }
+
+    
