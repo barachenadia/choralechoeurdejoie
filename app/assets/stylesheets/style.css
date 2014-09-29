@@ -13,7 +13,8 @@ body {
 
   margin:0;
   padding:0;
-  background: url(plan.jpeg) no-repeat center fixed; 
+  background-image: asset-url("plan.jpeg", image);
+  /*background: url(plan.jpeg) no-repeat center fixed; */
   -webkit-background-size: cover; /* pour Chrome et Safari */
   -moz-background-size: cover; /* pour Firefox */
   -o-background-size: cover; /* pour Opera */
