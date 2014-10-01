@@ -17,3 +17,10 @@
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
+$('#contacteznous').addClass('animated fadeInDown');
+$('#introbottom').addClass('animated fadeInDown');
+$('#contacteznousfont').addClass('animated fadeInDown'); 
+$('#rejoigneznousfont').addClass('animated fadeInDown');
+$('#rejoigneznous').addClass('animated fadeInDown');
+
+

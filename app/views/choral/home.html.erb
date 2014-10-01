@@ -23,8 +23,8 @@
                   Chorale Chœur de Joie est disponible pour des spectacles dans lÎle-de-France et au-delà.
                 </div>
                 <div id="line"></div>
-                <div id="contacteznousfont">  Rejoignez-nous </div>
-                <div id="contacteznous">
+                <div id="rejoigneznousfont">  Rejoignez-nous </div>
+                <div id="rejoigneznous">
                   Vous souhaitez vous joindre à d'autres, pour travailler votre voix, chanter à plusieurs voix,apprendre de nouveaux chants ? contactez-nous et rejoignez-nous !
                 </div>
     			</div>
@@ -40,13 +40,12 @@
   <div class="small-11 large-offset-1 " id="leftbox" style="border: 2px solid red;">  	
     <div class="content">
       <div class="navcontent" id="top">
-          <ul> 
-            
-            <li><a href="#">Connexion</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Photos</a></li>
-            <li><a href="#">Concert</a></li>
-            <li><a href="#" >Accueil</a></li>
+          <ul>      
+          <li><%= link_to "Connexion", choral_connexion_path %></li>
+          <li><%= link_to "Contact", choral_contact_path %></li>
+          <li><%= link_to "Photos", choral_photos_path %></li>
+          <li><%= link_to "Concert", choral_concert_path %></li>
+          <li><%= link_to "Accueil", root_path %></li>
           </ul>
       </div>
       <br><br>
@@ -56,8 +55,8 @@
           <%= image_tag "eglise.jpg" %>
          </span>
          <span id="apropos">
-          <h2>A propos de nous </h2>
-          <p id="paragraphe">
+          <h2 id="accueil">A propos de nous </h2>
+          <p id="paragraphe" >
              Le groupe Chorale Chœur de Joie est une chorale paroissiale, mixte constituée,  chantant en quator comme la plupart des autres chorales : les sopranes – les altis – les ténors et les basses. Plusieurs nationalités s’y retrouvent. Le répertoire tient compte de cette diversité avec des chants aussi bien en français, latin, créole des Antilles, créole portugais et africain (sénégalais, ivoirien etc…)
               La diversité culturelle est une richesse humaine, morale et spirituelle.
           </p>

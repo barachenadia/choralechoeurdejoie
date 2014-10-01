@@ -40,13 +40,12 @@
   <div class="small-11 large-offset-1 " id="leftbox" style="border: 2px solid red;">  	
     <div class="content">
       <div class="navcontent" id="top">
-          <ul> 
-            
-            <li><a href="#">Connexion</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Photos</a></li>
-            <li><a href="#">Concert</a></li>
-            <li><a href="#" >Accueil</a></li>
+          <ul>       
+            <li><%= link_to "Connexion", choral_connexion_path %></li>
+            <li><%= link_to "Contact", choral_contact_path %></li>
+            <li><%= link_to "Photos", choral_photos_path %></li>
+            <li><%= link_to "Concert", choral_concert_path %></li>
+            <li><%= link_to "Accueil", root_path %></li>
           </ul>
       </div>
       <br><br>

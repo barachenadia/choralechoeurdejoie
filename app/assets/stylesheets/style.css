@@ -69,6 +69,7 @@ ul li a:hover {
 }
 #espace
 {
+  
 margin-bottom:10px;
 border-bottom: 1px solid white;
 margin-right: 10%;
@@ -112,6 +113,20 @@ margin-top: 4%;
 padding-right:30px;
 padding-left: 30px;
 margin-bottom: 12%
+}
+#rejoigneznous
+{
+font-size: 18px;
+margin-top: 4%;
+padding-right:30px;
+padding-left: 30px;
+margin-bottom: 12%
+
+}
+#rejoigneznousfont 
+{
+margin-top: 13%;
+font-size: 25px
 }
 
 #leftbox
@@ -304,3 +319,9 @@ textarea:focus ~ .bar:before, textarea:focus ~ .bar:after {
 }
 
     
+#contacteznous, #introbottom, #rejoigneznousfont , #rejoigneznous  {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
+
