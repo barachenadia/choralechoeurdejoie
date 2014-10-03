@@ -128,7 +128,18 @@ margin-bottom: 12%
 margin-top: 13%;
 font-size: 25px
 }
+#nosphotosfont{
+  margin-top: 13%;
+  font-size: 25px
+}
+#nosphotos{
+font-size: 18px;
+margin-top: 4%;
+padding-right:30px;
+padding-left: 30px;
+margin-bottom: 12%
 
+}
 #leftbox
 {
 color:white;
@@ -319,9 +330,15 @@ textarea:focus ~ .bar:before, textarea:focus ~ .bar:after {
 }
 
     
-#contacteznous, #introbottom, #rejoigneznousfont , #rejoigneznous  {
+#contacteznous, #introbottom, #rejoigneznousfont , #rejoigneznous , #nosphotos  {
   -vendor-animation-duration: 3s;
   -vendor-animation-delay: 2s;
   -vendor-animation-iteration-count: infinite;
 }
 
+label{
+color:black
+}
+#icons{
+   padding-right: 4%
+}

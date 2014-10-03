@@ -22,5 +22,5 @@ $('#introbottom').addClass('animated fadeInDown');
 $('#contacteznousfont').addClass('animated fadeInDown'); 
 $('#rejoigneznousfont').addClass('animated fadeInDown');
 $('#rejoigneznous').addClass('animated fadeInDown');
-
-
+$('#nosphotosfont').addClass('animated fadeInDown');
+$('#nosphotos').addClass('animated fadeInDown');
